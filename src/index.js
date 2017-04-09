@@ -3,5 +3,4 @@ import './index.css';
 import numeral from 'numeral';
 
 const courseValue = numeral(1000).format('$0,0.00');
-debugger;
-console.log(`Eu pagaria ${courseValue} por este incrivel curso!!`);
+console.log(`Eu pagaria ${courseValue} por este incrivel curso!!`); // eslint-disable-line no-console
